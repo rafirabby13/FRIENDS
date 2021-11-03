@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    font-family: 'Rozha One', serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    color: rgb(55, 229, 235);
+    font-size: 40px;
+}
+h3{
+    color: rgb(21, 230, 14);
+}
+p{
+    color: purple;
+    font-size: large;
+}
+.name-highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 2px;
+    margin-left: 30px;
+    padding: 10px;
+    padding-top: 30px;
+
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    background-repeat: no-repeat;
+    background-image: url("image/top-banner.png");
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.link-button{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(15deg,yellow,red);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.dream-area{
+    background-image: url("image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+    padding: 50px;
+    height: 60%;
+    width: 35%;
+    margin-left: 80px;
+}
+.experience-area{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(9, 230, 27),rgb(235, 11, 149));
+    border-image-slice: 1;
+
+}
+#baby-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,rgb(235, 11, 179),rgb(185, 233, 14));
+    border-image-slice: 1;
+
+}
+footer{
+    margin-bottom: 60px;
+    font-size: 40px;
+    color: red;
+    font-weight: 700;
+    text-align: center;
+}
